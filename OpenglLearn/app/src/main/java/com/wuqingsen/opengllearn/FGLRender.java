@@ -29,8 +29,8 @@ public class FGLRender implements GLSurfaceView.Renderer {
     }
 
     @Override
-    public void onSurfaceChanged(GL10 gl10, int i, int i1) {
-
+    public void onSurfaceChanged(GL10 gl10, int width, int height) {
+        triangle.onSurfaceChanged(gl10, width, height);
     }
 
     //不断被调用

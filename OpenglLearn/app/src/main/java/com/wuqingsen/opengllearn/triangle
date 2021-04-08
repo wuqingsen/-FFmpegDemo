@@ -1,0 +1,10 @@
+attribute vect4 vPosition;
+void main(){
+    gl_Position=vPosition;
+}
+
+precision mediump float;
+uniform vect4 vColor;
+void main(){
+    gl_FragColor=vColor;
+}
