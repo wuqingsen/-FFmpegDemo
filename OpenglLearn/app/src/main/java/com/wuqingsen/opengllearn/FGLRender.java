@@ -12,7 +12,7 @@ import javax.microedition.khronos.opengles.GL10;
 /**
  * wuqingsen on 2021/4/7
  * Mailbox:807926618@qq.com
- * annotation:
+ * annotation:渲染器
  */
 public class FGLRender implements GLSurfaceView.Renderer {
     protected View mView;
