@@ -17,7 +17,7 @@ public class WangyiView extends GLSurfaceView {
         super(context, attrs);
         setEGLContextClientVersion(2);
         setRenderer(new WangyiRender(this));
-        //设置渲染模式
+        //设置渲染模式,自动调用draw
         setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
     }
 }

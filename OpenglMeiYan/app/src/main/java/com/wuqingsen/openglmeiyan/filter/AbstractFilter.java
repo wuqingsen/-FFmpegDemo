@@ -91,6 +91,7 @@ public abstract class AbstractFilter {
     public int onDrawFrame(int textureId) {
         //设置显示窗口
         GLES20.glViewport(0, 0, mWidth, mHeight);
+
         //渲染
         GLES20.glUseProgram(mProgram);
 
@@ -104,13 +105,13 @@ public abstract class AbstractFilter {
         GLES20.glEnableVertexAttribArray(vCoord);//允许对该内存存储变量进行读写
 
         //激活采样器
-        GLES20.glActiveTexture(GLES20.GL_TEXTURE);
+        GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
         //GPU与摄像头绑定；GLES20.GL_TEXTURE_2D:采样器；
         GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, textureId);
 
         GLES20.glUniform1i(vTexture, 0);
         //绘制
-        GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 0);
+        GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
         return textureId;
     }
 

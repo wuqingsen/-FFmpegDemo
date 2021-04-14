@@ -17,28 +17,47 @@ import java.io.InputStreamReader;
 public class OpenGLUtils {
 
     public static String readRawFileFile(Context context,
-                                         int resourceId) {
-        StringBuilder body = new StringBuilder();
+                                         int rawId) {
+//        StringBuilder body = new StringBuilder();
+//
+//        try {
+//            InputStream inputStream =
+//                    context.getResources().openRawResource(resourceId);
+//            InputStreamReader inputStreamReader =
+//                    new InputStreamReader(inputStream);
+//            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+//            String nextLine;
+//            while ((nextLine = bufferedReader.readLine()) != null) {
+//                body.append(nextLine);
+//                body.append('\n');
+//            }
+//        } catch (IOException e) {
+//            throw new RuntimeException(
+//                    "Could not open resource: " + resourceId, e);
+//        } catch (Resources.NotFoundException nfe) {
+//            throw new RuntimeException("Resource not found: " + resourceId, nfe);
+//        }
+//        return body.toString();
 
+
+        InputStream is = context.getResources().openRawResource(rawId);
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        String line;
+        StringBuilder sb = new StringBuilder();
         try {
-            InputStream inputStream =
-                    context.getResources().openRawResource(resourceId);
-            InputStreamReader inputStreamReader =
-                    new InputStreamReader(inputStream);
-            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-            String nextLine;
-            while ((nextLine = bufferedReader.readLine()) != null) {
-                body.append(nextLine);
-                body.append('\n');
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+                sb.append("\n");
             }
         } catch (IOException e) {
-            throw new RuntimeException(
-                    "Could not open resource: " + resourceId, e);
-        } catch (Resources.NotFoundException nfe) {
-            throw new RuntimeException("Resource not found: " + resourceId, nfe);
+            e.printStackTrace();
         }
-        return body.toString();
-
+        try {
+            br.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return sb.toString();
     }
 
     public static int loadProgram(String vertexShader, String fragmentShader) {
