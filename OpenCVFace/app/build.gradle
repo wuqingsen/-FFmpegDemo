@@ -17,8 +17,11 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags ""
-                abiFilters 'armeabi-v7a'
+//                abiFilters 'armeabi-v7a'
             }
+        }
+        ndk {
+            abiFilters 'armeabi-v7a'
         }
     }
 
@@ -30,6 +33,7 @@ android {
     }
     externalNativeBuild {
         cmake {
+//            path "CMakeLists.txt"
             path "src/main/cpp/CMakeLists.txt"
             version "3.10.2"
         }
@@ -38,6 +42,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    ndkVersion '21.1.6352462'
 }
 
 dependencies {
