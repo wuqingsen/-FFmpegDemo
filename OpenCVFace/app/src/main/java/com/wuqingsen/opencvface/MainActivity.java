@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
+//wqs
 public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
