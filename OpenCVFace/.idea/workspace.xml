@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BranchesTreeState">
@@ -28,7 +28,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc47c46e-827e-41d4-9c82-55bee3d35f5b" name="Default Changelist" comment="" />
+    <list default="true" id="dc47c46e-827e-41d4-9c82-55bee3d35f5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/lbpcascade_frontalface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface/OpencvJni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface/util/CameraHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/armeabi-v7a/libopencv_java4.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/libs/armeabi-v7a/libopencv_java4.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +53,25 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -56,7 +89,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHub/MyApplication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,14 +100,20 @@
     <option name="MODULE_TAB" value="Signing Configs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/cpp" />
+      <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app\src\main\cpp" />
+      <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wuqingsen.opencvface.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/wuqingsen/opencvface" />
       <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app\libs" />
       <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app\src\main\cpp" />
       <recent name="$PROJECT_DIR$/app/libs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app\src\main\cpp" />
-      <recent name="E:\GitHub\GitHubMe\FFmpegDemo\OpenCVFace\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -181,29 +220,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618490547286" />
+    <state x="-827" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618545039670">
+      <screen x="-1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="-827" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618545039670" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618493656695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618493656695" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1618493813806">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="283" key="GridCell.Tab.0.bottom" timestamp="1618564005136">
+      <screen x="-1280" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="283" key="GridCell.Tab.0.bottom/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005136" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1618493813806">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="283" key="GridCell.Tab.0.center" timestamp="1618564005133">
+      <screen x="-1280" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="283" key="GridCell.Tab.0.center/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005133" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1618493813805">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="283" key="GridCell.Tab.0.left" timestamp="1618564005132">
+      <screen x="-1280" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="283" key="GridCell.Tab.0.left/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005132" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813805" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1618493813806">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="283" key="GridCell.Tab.0.right" timestamp="1618564005135">
+      <screen x="-1280" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="283" key="GridCell.Tab.0.right/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005135" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1618489468881">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-839" y="73" width="585" height="878" key="find.popup" timestamp="1618560383432">
+      <screen x="-1280" y="0" width="1280" height="1024" />
     </state>
+    <state x="-839" y="73" width="585" height="878" key="find.popup/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618560383432" />
     <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618489468881" />
   </component>
 </project>

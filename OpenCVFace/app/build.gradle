@@ -16,8 +16,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                cppFlags ""
+                cppFlags "-frtti -fexceptions"
 //                abiFilters 'armeabi-v7a'
+                arguments "-DANDROID_STL=c++_shared"
             }
         }
         ndk {
@@ -36,6 +37,12 @@ android {
 //            path "CMakeLists.txt"
             path "src/main/cpp/CMakeLists.txt"
             version "3.10.2"
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/cpp/libs']
         }
     }
     compileOptions {

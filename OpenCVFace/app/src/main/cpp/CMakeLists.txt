@@ -3,7 +3,9 @@ cmake_minimum_required(VERSION 3.10.2)
 project("opencvface")
 
 add_library( native-lib
+
              SHARED
+
         native-lib.cpp)
 #             ../../../../src/main/cpp/native-lib.cpp )
 #导入头文件
@@ -18,5 +20,9 @@ find_library( log-lib
 
 target_link_libraries(
         native-lib
-#        opencv_java4
+
+        opencv_java4
+
+        android
+
         ${log-lib} )
