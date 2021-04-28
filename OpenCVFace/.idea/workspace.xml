@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BranchesTreeState">
@@ -29,380 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc47c46e-827e-41d4-9c82-55bee3d35f5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BigEye/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/androidTest/java/com/wuqingsen/bigeye/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/assets/lbpcascade_frontalface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/calib3d.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/calib3d/calib3d.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/calib3d/calib3d_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/affine.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/async.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/base.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/bindings_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/bufferpool.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/check.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/core_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/block.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/border_interpolate.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/color.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/common.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/datamov_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/color_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/reduce.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/reduce_key_val.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/transform_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/type_traits_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/detail/vec_distance_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/dynamic_smem.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/emulation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/filters.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/funcattrib.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/functional.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/limits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/reduce.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/saturate_cast.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/scan.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/simd_functions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/transform.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/type_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/utility.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/vec_distance.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/vec_math.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/vec_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/warp.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/warp_reduce.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda/warp_shuffle.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda_stream_accessor.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cuda_types.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cv_cpu_dispatch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cv_cpu_helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cvdef.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cvstd.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cvstd.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/cvstd_wrapper.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/detail/async_promise.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/detail/exception_ptr.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/directx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/dualquaternion.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/dualquaternion.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/eigen.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/fast_math.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/hal.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/interface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_avx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_avx512.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_cpp.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_forward.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_msa.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_neon.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_rvv.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_sse.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_sse_em.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_vsx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/intrin_wasm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/msa_macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/hal/simd_utils.impl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/mat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/mat.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/matx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/neon_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/ocl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/ocl_genbase.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/ocl_defs.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/opencl_info.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/opencl_svm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_clamdblas.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_clamdfft.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_gl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/opengl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/operations.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/optim.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/ovx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/parallel/parallel_backend.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/persistence.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/quaternion.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/quaternion.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/saturate.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/simd_intrinsics.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/softfloat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/sse_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/types.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/types_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utility.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/allocator_stats.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/allocator_stats.impl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/filesystem.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/instrumentation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/logger.defines.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/logger.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/logtag.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/tls.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/utils/trace.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/va_intel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/version.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/core/vsx_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/cvconfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/all_layers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/dict.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/dnn.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/dnn.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/layer.details.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/layer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/shape_utils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/utils/inference_engine.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/dnn/version.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/features2d.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/features2d/features2d.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/features2d/hal/interface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/all_indices.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/allocator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/any.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/autotuned_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/composite_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/defines.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/dist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/dummy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/dynamic_bitset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/flann.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/flann_base.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/general.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/ground_truth.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/hdf5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/heap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/hierarchical_clustering_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/index_testing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/kdtree_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/kdtree_single_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/kmeans_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/linear_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/logger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/lsh_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/lsh_table.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/miniflann.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/nn_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/object_factory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/params.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/random.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/result_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/sampling.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/saving.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/simplex_downhill.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/flann/timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/cpu/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/cpu/gcpukernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/cpu/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/cpu/stereo.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/cpu/video.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/fluid/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/fluid/gfluidbuffer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/fluid/gfluidkernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/fluid/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/garg.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/garray.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gasync_context.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcall.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcommon.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcompiled.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcompiled_async.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcompoundkernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcomputation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gcomputation_async.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gframe.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gkernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gmat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gmetaarg.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gopaque.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gproto.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gpu/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gpu/ggpukernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gpu/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gscalar.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gstreaming.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gtransform.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gtype_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/gtyped.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/infer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/infer/bindings_ie.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/infer/ie.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/infer/onnx.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/infer/parsers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/media.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/ocl/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/ocl/goclkernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/ocl/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/opencv_includes.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/operators.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/assert.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/convert.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/cvdefs.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/exports.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/mat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/saturate.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/scalar.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/own/types.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/plaidml/core.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/plaidml/gplaidmlkernel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/plaidml/plaidml.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/python/python.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/render.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/render/render.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/render/render_types.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/rmat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/s11n.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/s11n/base.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/stereo.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/cap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/desync.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/format.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/meta.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/source.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/streaming/sync.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/any.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/compiler_hints.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/copy_through_move.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/optional.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/throw.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/type_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/util.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/util/variant.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/gapi/video.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/highgui.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/highgui/highgui.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/highgui/highgui_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs/imgcodecs.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs/imgcodecs_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs/ios.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs/legacy/constants_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgcodecs/macosx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/bindings.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/detail/gcgraph.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/hal/hal.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/hal/interface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/imgproc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/imgproc_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/segmentation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/imgproc/types_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/ml.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/ml/ml.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/ml/ml.inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/objdetect.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/objdetect/detection_based_tracker.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/objdetect/objdetect.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/opencv.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/opencv_modules.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/photo.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/photo/cuda.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/photo/legacy/constants_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/photo/photo.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/autocalib.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/blenders.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/camera.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/exposure_compensate.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/matchers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/motion_estimators.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/seam_finders.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/timelapsers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/util.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/util_inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/warpers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/detail/warpers_inl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/stitching/warpers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video/background_segm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video/detail/tracking.detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video/legacy/constants_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video/tracking.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/video/video.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio/cap_ios.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio/legacy/constants_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio/registry.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio/videoio.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/videoio/videoio_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/include/opencv2/world.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/libs/armeabi-v7a/libopencv_java4.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/cpp/native-lib.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/OpencvJni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/filter/AbstractFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/filter/CameraFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/filter/ScreenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/util/CameraHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/util/OpenGLUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/util/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/view/WangyiRender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/java/com/wuqingsen/bigeye/view/WangyiView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/raw/base_frag.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/raw/base_vertex.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/raw/camera_frag.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/raw/camera_vertex.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/app/src/test/java/com/wuqingsen/bigeye/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BigEye/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/java/com/wuqingsen/opencvall/OneActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/java/com/wuqingsen/opencvall/ThreeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/java/com/wuqingsen/opencvall/TwoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/drawable/icon_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/drawable/icon_two.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/layout/activity_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/layout/activity_three.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/layout/activity_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCVAll/app/src/main/res/raw/lbpcascade_frontalface_improved.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -410,7 +46,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[TPG5T18328002484]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -590,31 +226,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618493656695" />
-    <state width="1236" height="283" key="GridCell.Tab.0.bottom" timestamp="1618564005136">
-      <screen x="-1280" y="0" width="1280" height="1024" />
+    <state width="1396" height="232" key="GridCell.Tab.0.bottom" timestamp="1619079843752">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1236" height="283" key="GridCell.Tab.0.bottom/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005136" />
+    <state width="1396" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1619079843752" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state width="1236" height="283" key="GridCell.Tab.0.center" timestamp="1618564005133">
-      <screen x="-1280" y="0" width="1280" height="1024" />
+    <state width="1396" height="232" key="GridCell.Tab.0.center" timestamp="1619079843751">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1236" height="283" key="GridCell.Tab.0.center/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005133" />
+    <state width="1396" height="232" key="GridCell.Tab.0.center/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1619079843751" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state width="1236" height="283" key="GridCell.Tab.0.left" timestamp="1618564005132">
-      <screen x="-1280" y="0" width="1280" height="1024" />
+    <state width="1396" height="232" key="GridCell.Tab.0.left" timestamp="1619079843750">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1236" height="283" key="GridCell.Tab.0.left/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005132" />
+    <state width="1396" height="232" key="GridCell.Tab.0.left/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1619079843750" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813805" />
-    <state width="1236" height="283" key="GridCell.Tab.0.right" timestamp="1618564005135">
-      <screen x="-1280" y="0" width="1280" height="1024" />
+    <state width="1396" height="232" key="GridCell.Tab.0.right" timestamp="1619079843752">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1236" height="283" key="GridCell.Tab.0.right/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618564005135" />
+    <state width="1396" height="232" key="GridCell.Tab.0.right/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1619079843752" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618493813806" />
-    <state x="496" y="64" width="659" height="772" key="find.popup" timestamp="1618899560499">
+    <state x="496" y="64" width="659" height="772" key="find.popup" timestamp="1619077435196">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-839" y="73" width="585" height="878" key="find.popup/0.0.1440.900/-1280.0.1280.1024@-1280.0.1280.1024" timestamp="1618560383432" />
-    <state x="496" y="64" width="659" height="772" key="find.popup/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1618899560499" />
+    <state x="496" y="64" width="659" height="772" key="find.popup/0.0.1440.900/-1280.0.1280.1024@0.0.1440.900" timestamp="1619077435196" />
     <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618489468881" />
   </component>
 </project>
